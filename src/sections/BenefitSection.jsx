@@ -48,7 +48,7 @@ const BenefitSection = () => {
         <div className="col-center">
           <p>
             What Makes Us Special: <br />
-            Discover Why Ooty Coffee Estates Stand Out
+            Discover Why BREWOOTY Stands Out
           </p>
 
           <div className="mt-20 col-center">

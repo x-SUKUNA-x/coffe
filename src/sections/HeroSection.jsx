@@ -88,7 +88,7 @@ const HeroSection = () => {
         )}
         <div className="hero-content opacity-0">
           <div className="overflow-hidden">
-            <h1 className="hero-title">Fresh Coffee from Ooty</h1>
+            <h1 className="hero-title">BREWOOTY</h1>
           </div>
           <div
             style={{
@@ -97,7 +97,7 @@ const HeroSection = () => {
             className="hero-text-scroll"
           >
             <div className="hero-subtitle">
-              <h1>Straight from the Estates</h1>
+              <h1>Fresh Coffee from Ooty Hills</h1>
             </div>
           </div>
 

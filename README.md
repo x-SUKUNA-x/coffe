@@ -1,10 +1,12 @@
-# Ooty Coffee Estates
+# BREWOOTY ☕
 
 A premium landing page for a luxury coffee brand selling fresh coffee directly from the coffee farms of Ooty, Tamil Nadu.
 
 ## 🌿 About
 
 Experience the authentic taste of Ooty's misty hills with our handpicked coffee beans. Grown at high altitudes in the lush coffee estates of Ooty, roasted fresh to perfection, and delivered straight to your doorstep.
+
+**BREWOOTY** - Where every cup tells a story from the hills.
 
 ## ✨ Features
 
@@ -33,8 +35,8 @@ Experience the authentic taste of Ooty's misty hills with our handpicked coffee 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ooty-coffee-estates.git
-cd ooty-coffee-estates
+git clone https://github.com/x-SUKUNA-x/spread-wings-.git
+cd spread-wings-
 ```
 
 2. Install dependencies:
@@ -63,10 +65,21 @@ The optimized production build will be in the `dist` folder.
 - **Typography**: Antonio (headings) + Proxima Nova (body text)
 - **Visual Style**: Elegant, premium, nature-inspired
 
+## ☕ Product Line
+
+- Estate Arabica - ₹499
+- Estate Robusta - ₹449
+- Premium Filter Coffee - ₹549
+- Dark Roast - ₹599
+- Espresso Blend - ₹649
+- Gift Box Collection - ₹1,499
+
 ## 📄 License
 
-All Rights Reserved © 2025 Ooty Coffee Estates
+All Rights Reserved © 2025 BREWOOTY
 
 ## 🙏 Credits
 
 Built with passion for premium coffee from the hills of Ooty, Tamil Nadu.
+
+**#BREWOOTY** - Fresh Coffee, Straight from Ooty's Coffee Estates

@@ -92,7 +92,7 @@ const MessageSection = () => {
           <div className="flex-center md:mt-20 mt-10">
             <div className="max-w-md px-10 flex-center overflow-hidden">
               <p>
-                Experience the essence of Ooty's misty plantations with every sip. Our coffee is grown at high altitudes, handpicked at peak ripeness, and roasted to perfection.
+                Experience the essence of Ooty's misty plantations with every sip of BREWOOTY. Our coffee is grown at high altitudes, handpicked at peak ripeness, and roasted to perfection.
               </p>
             </div>
           </div>

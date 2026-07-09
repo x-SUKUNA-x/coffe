@@ -66,7 +66,7 @@ const FooterSection = () => {
 
           <div className="md:max-w-lg">
             <p>
-              Subscribe to Our Newsletter for Exclusive Offers, New Coffee Releases, and Stories from Our Ooty Estates!
+              Subscribe to Our Newsletter for Exclusive Offers, New Coffee Releases, and Stories from BREWOOTY!
             </p>
             <div className="flex justify-between items-center border-b border-[#D9D9D9] py-5 md:mt-10">
               <input
@@ -80,7 +80,7 @@ const FooterSection = () => {
         </div>
 
         <div className="copyright-box">
-          <p>Copyright © 2025 Ooty Coffee Estates - All Rights Reserved</p>
+          <p>Copyright © 2025 BREWOOTY - All Rights Reserved</p>
           <div className="flex items-center gap-7">
             <p>Privacy Policy</p>
             <p>Terms of Service</p>
