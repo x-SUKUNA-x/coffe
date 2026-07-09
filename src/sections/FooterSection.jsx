@@ -23,14 +23,13 @@ const FooterSection = () => {
         {isMobile ? (
           <img
             src="/images/footer-drink.png"
+            alt="Coffee"
             className="absolute top-0 object-contain"
           />
         ) : (
-          <video
-            src="/videos/splash.mp4"
-            autoPlay
-            playsInline
-            muted
+          <img
+            src="/images/big-img.png"
+            alt="Coffee splash"
             className="absolute top-0 object-contain mix-blend-lighten"
           />
         )}

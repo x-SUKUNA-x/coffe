@@ -2,8 +2,10 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import { useMediaQuery } from "react-responsive";
+import { useRef, useEffect } from "react";
 
 const HeroSection = () => {
+  const videoRef = useRef(null);
   const isMobile = useMediaQuery({
     query: "(max-width: 768px)",
   });
@@ -11,6 +13,14 @@ const HeroSection = () => {
   const isTablet = useMediaQuery({
     query: "(max-width: 1024px)",
   });
+
+  // Reset video when component mounts or comes into view
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play();
+    }
+  }, []);
 
   useGSAP(() => {
     const titleSplit = SplitText.create(".hero-title", {
@@ -51,6 +61,13 @@ const HeroSection = () => {
         start: "1% top",
         end: "bottom top",
         scrub: true,
+        onEnter: () => {
+          // Restart video when scrolling back to hero
+          if (videoRef.current) {
+            videoRef.current.currentTime = 0;
+            videoRef.current.play();
+          }
+        },
       },
     });
     heroTl.to(".hero-container", {
@@ -79,9 +96,11 @@ const HeroSection = () => {
           </>
         ) : (
           <video
+            ref={videoRef}
             src="/videos/hero-bg.mp4"
             autoPlay
             muted
+            loop
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           />
